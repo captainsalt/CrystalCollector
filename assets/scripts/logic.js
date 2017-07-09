@@ -57,8 +57,8 @@
     }
 
     function updateAllElements() {
-        updateHTMLElement("wins", "Wins: " + wins);
-        updateHTMLElement("losses", "Losses: " + losses);
+        updateHTMLElement("wins", "Wins " + wins);
+        updateHTMLElement("losses", "Losses " + losses);
         updateHTMLElement("targetScore", "Target Score<br>" + targetNumber);
         updateHTMLElement("totalScore", "Total Score<br>" + totalScore);
     }
