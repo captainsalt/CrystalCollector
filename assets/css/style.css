@@ -6,6 +6,7 @@ div[class^="col"] {
     background: white;
     border: 1px solid black;
     border-radius: 5px;
+    background-image: url("..\\images\\whirl.png");
 }
 
 div[value]:active {
