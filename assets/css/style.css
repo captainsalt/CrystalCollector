@@ -1,5 +1,5 @@
 p {
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Bellefair', serif;
 }
 
 body {
@@ -22,6 +22,8 @@ div[value]:hover {
 
 h1 {
     text-align: center;
+    font-weight: bolder;
+    font-family: 'Bellefair', serif;
 }
 
 img {
