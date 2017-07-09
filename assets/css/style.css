@@ -1,0 +1,43 @@
+body {
+    background-image: url("..\\images\\backdrop.png");
+}
+
+div[class^="col"] {
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+div[value]:active {
+    background: #999;
+}
+
+div[value]:hover {
+    background: #ccc;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.container {
+    margin: 0px auto;
+    width: 97%;
+}
+
+.row {
+    margin: 10px 0;
+    padding: 2px;
+}
+
+.stats {
+    font-size: 400%;
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+}

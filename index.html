@@ -1,0 +1,83 @@
+﻿<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        CrystalsCollector
+    </title>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!--Title -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>CrystalsCollector</h1>
+            </div>
+        </div>
+
+        <!--Game Description-->
+        <div class="row">
+            <div class="col-lg-12">
+                <p>You will be given a random number at the start of the game</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                    total score
+                </p>
+                <p>You win the game by matching your score to the the random number</p>
+                <p>The value of each crystal is hidden. You will not know it's value until you click on it</p>
+                <p>The vaule of the crystals will change every time you start a new game</p>
+            </div>
+        </div>
+
+        <!--Second row-->
+        <div class="row">
+            <!--Stats-->
+            <div class="col-lg-6">
+                <p class="stats" id="wins">Wins: 0</p>
+                <p class="stats" id="losses">Losses: 0</p>
+            </div>
+
+            <!--Target score-->
+            <div class="col-lg-6">
+                <p class="stats" id="targetScore">Target Score<br>0</p>
+            </div>
+        </div>
+
+        <!--Total score-->
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="stats" id="totalScore">Total Score<br>0</p>
+            </div>
+        </div>
+
+        <!--Crystals-->
+        <div class="row">
+            <div class="col-lg-offset-2 col-lg-2" value="0">
+                <img src="assets/images/GreenRupee.png" alt="">
+            </div>
+
+            <div class="col-lg-2" value="0">
+                <img src="assets/images/BlueRupee.png" alt="">
+            </div>
+
+            <div class="col-lg-2" value="0">
+                <img src="assets/images/RedRupee.png" alt="">
+            </div>
+
+            <div class="col-lg-2" value="0">
+                <img src="assets/images/PurpleRupee.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/scripts/logic.js"></script>
+</body>
+
+</html>
