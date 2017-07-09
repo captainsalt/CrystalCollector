@@ -6,7 +6,6 @@
 
     initialize();
 
-    //add to total and check value
     $("div[value]").click(function() {
         var value = $(this).attr("value");
         var intValue = parseInt(value);
