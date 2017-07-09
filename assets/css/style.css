@@ -4,9 +4,9 @@ body {
 
 div[class^="col"] {
     background: white;
+    background-image: url("..\\images\\whirl.png");
     border: 1px solid black;
     border-radius: 5px;
-    background-image: url("..\\images\\whirl.png");
 }
 
 div[value]:active {
