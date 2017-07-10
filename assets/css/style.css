@@ -9,12 +9,12 @@ div[class^="col"] {
     border-radius: 5px;
 }
 
-div[value]:active {
-    background: #999;
-}
-
 div[value]:hover {
     background: #ccc;
+}
+
+div[value]:active {
+    background: #999;
 }
 
 h1 {
