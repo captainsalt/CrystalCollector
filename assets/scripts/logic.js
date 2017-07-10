@@ -8,7 +8,7 @@
     initialize();
 
     $("div[value]").click(function() {
-        //Gets the value of the value attribute on each crystal;
+        //Gets the value of the value attribute on each crystal and stores it as an int;
         var value = $(this).attr("value");
         var intValue = parseInt(value);
 
