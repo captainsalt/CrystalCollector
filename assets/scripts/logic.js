@@ -42,7 +42,6 @@
         updateAllElements();
     }
 
-
     function setCrystalValues() {
         var crystals = $("div[value]").get();
 
