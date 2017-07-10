@@ -15,6 +15,9 @@
         //Adds the value of the crystal to the total score
         totalScore += intValue;
 
+        //Update the page
+        updateAllElements();
+
         // If you go over the target number you lose
         if (totalScore > targetNumber) {
             alert("You lose");
@@ -29,14 +32,11 @@
             initialize();
             return;
         }
-
-        //Update the page
-        updateAllElements();
     });
 
     //Starts a new game
     function initialize() {
-        targetNumber = randomTargetValue();
+        targetNumber = random(19, 120);
         totalScore = 0;
         setCrystalValues();
         updateAllElements();
@@ -47,20 +47,12 @@
 
         //Loop through all the divs with the value attribute and set its value to a random number between 1,12
         for (var i = 0; i < crystals.length; i++) {
-            $(crystals[i]).attr("value", randomCrystalValue());
+            $(crystals[i]).attr("value", random(1, 12));
         }
     }
 
-    function randomCrystalValue() {
-        return randomHelper(1, 12);
-    }
-
-    function randomTargetValue() {
-        return randomHelper(19, 120);
-    }
-
-    //Gets a random number between min and max
-    function randomHelper(min, max) {
+    //returns a random number between min and max
+    function random(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 
