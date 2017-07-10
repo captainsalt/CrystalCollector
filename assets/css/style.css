@@ -39,6 +39,7 @@ p {
 
 .description > p {
     padding-top: 10px;
+    font-size: 150%;
 }
 
 .row {
